@@ -1,17 +1,18 @@
-Instructions example using a Serial Terminal
-
 
 # Arduino Examples
-I use this code to test the boards. asdf
-saf
+I use this code to test the boards. 
+
 I am using the [AltSoftSerial Library](https://github.com/PaulStoffregen/AltSoftSerial), please use that one because it is already testedd
 asfda
-The first file called Wisol_Software_Serial_Local is a simple file with the following functionality  :safas
-IDG
-PAC
-Temperatue
-
-
+The first file called Wisol_Software_Serial_Local is a simple file with the following functionality  :
+Get ID
+Get PAC
+Get Temperatue
+Send a Local frame
+Sleep
+Wake up and Loop
+d
+df
 The Wisol WSSFM10R2 is a Sigfox Module based on [Onsemi AX-SFUS](http://www.onsemi.com/pub/Collateral/AX-SFUS-D.PDF)
 
 The WSSFM10R2 uses a UART interface. Simple commands are used to operate the module(see DataSheet).

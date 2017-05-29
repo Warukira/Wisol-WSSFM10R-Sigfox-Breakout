@@ -19,7 +19,7 @@ AltSoftSerial mySerial;
 
 void setup() {
 
-  pinMode(12,OUTPUT);//I am using pin 12 to do the Sleep
+  pinMode(12,OUTPUT);//I am using pin 12 to do the Sleep(RST on the Wisol Module)
   Serial.begin(57600);// Configuring the PC serial port
 
   mySerial.begin(9600);//Configuring the Sigfox Module software serial port

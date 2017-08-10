@@ -1,4 +1,3 @@
-
 #include <AltSoftSerial.h>
 #include <stdio.h>
 // AltSoftSerial always uses these pins:
@@ -79,8 +78,14 @@ void loop()
     Serial.println(wtemp);               //Temperature as Char array
 
     temperaturewisol=atoi(wtemp);        //Char to Int Conversion
-
+//----Send Sigfox data
     Serial.println("Send Sigfox");    
+
+    ATRC();                              // We do the AT$RC command first
+    ReadWisolTx(rx_wisol);
+    Serial.println("Wisol Response");
+    Serial.print(rx_wisol);
+    
     ATsendsigfoxint(temperaturewisol);  // Function to send a Sigfox Integer     
 
     delay(10);
@@ -101,6 +106,10 @@ void loop()
 
 
   // Apply the desired delay after sending
+  // this is a 11 minute dirty delay for my testing purposes
+   for (int i=0; i <= 11; i++){
+     
+   
     delay(10000);
     delay(10000);
     delay(10000);
@@ -108,7 +117,7 @@ void loop()
     delay(10000);
     delay(10000);
     delay(10000);
-
+   }
 
 }
 
@@ -150,6 +159,22 @@ void ATcmd()
 {
 
   mySerial.println("AT");// writing AT command
+  delay(100);
+
+}
+
+void ATGI()
+{
+
+  mySerial.println("AT$GI?");// writing AT command
+  delay(100);
+
+}
+
+void ATRC()
+{
+
+  mySerial.println("AT$RC");// writing AT command
   delay(100);
 
 }

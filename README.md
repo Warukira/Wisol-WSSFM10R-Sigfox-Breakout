@@ -11,3 +11,5 @@ Schematics for Wisol WSSFM10Rx Sigfox Breakout. Refer to the `Hardware` folder.
 Original design by Sea Slug Labs:
 
 https://github.com/SeaSlugLabs/Wisol-WSSFM10R2-Sigfox-Breakout
+
+![Wisol WSSFM10R2/4 Sigfox Breakout board](https://raw.githubusercontent.com/lupyuen/Wisol-WSSFM10R-Sigfox-Breakout/master/Hardware/PCB.png)

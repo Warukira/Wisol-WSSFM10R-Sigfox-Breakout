@@ -1,11 +1,11 @@
-# Wisol WSSFM10R Sigfox Breakout
-Schematics and Documentation for Wisol WSSFM10R2 Sigfox Breakout
+# Wisol WSSFM10Rx Sigfox Breakout
 
+Schematics for Wisol WSSFM10Rx Sigfox Breakout. Refer to the `Hardware` folder.
 
-The Wisol WSSFM10R2 is a Sigfox Module based on [Onsemi AX-SFUS](http://www.onsemi.com/pub/Collateral/AX-SFUS-D.PDF)
+- Autodesk EAGLE schematics for Wisol WSSFM10R2/4 Sigfox Breakout board
 
-The WSSFM10R2 uses a UART interface. Simple commands are used to operate the module(see DataSheet).
+- Formatted for Seeed Fusion PCB Assembly service
 
-The UART on this breakout is 3.3V, avoid connecting It to a 5V system. Perfect size to fit on any board to connect your project to the internet of things with Sigfox.
+Original design by Sea Slug Labs:
 
-Dont forget to buy our products at [Sea Slug Labs IoT Maker Store](http://www.seasluglabs.io)
+https://github.com/SeaSlugLabs/Wisol-WSSFM10R2-Sigfox-Breakout

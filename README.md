@@ -1,5 +1,5 @@
-# Wisol WSSFM10R2 Sigfox Breakout
-Documentation for Wisol WSSFM10R2 Sigfox Breakout
+# Wisol WSSFM10R Sigfox Breakout
+Schematics and Documentation for Wisol WSSFM10R2 Sigfox Breakout
 
 
 The Wisol WSSFM10R2 is a Sigfox Module based on [Onsemi AX-SFUS](http://www.onsemi.com/pub/Collateral/AX-SFUS-D.PDF)

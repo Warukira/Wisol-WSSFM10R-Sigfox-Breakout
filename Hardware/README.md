@@ -6,6 +6,10 @@
 - All components sourced from Seeed Open Parts Library, except for Wisol module: <br>
   https://www.seeedstudio.com/opl.html
 
+- Gerber RS-274x and Excellon PCB designs submitted to Seeed Fusion are in `Wisol-Breakout_2018-07-02.zip`
+
+- Bill Of Materials (BOM) submitted to Seeed Fusion is in `Wisol-Breakout-BOM.csv`
+
 - Original design by Sea Slug Labs: <br>
   https://github.com/SeaSlugLabs/Wisol-WSSFM10R2-Sigfox-Breakout
 

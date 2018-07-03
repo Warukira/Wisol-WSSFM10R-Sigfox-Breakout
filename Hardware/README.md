@@ -18,9 +18,9 @@
   1. Link provided to Seeed Fusion for sourcing WSSFM10R4AT: <br>																									
     https://www.avnet.com/shop/apac/products/wisol/wssfm10r4at-3074457345633583729/?aka_re=1																							
 
-- PCB layout was validated with the Seeed Fusion Design Rules `SeeedStudio_4layer_DRU_no_angle_20140221.dru`
+- PCB layout was validated in Autodesk EAGLE with the Seeed Fusion Design Rules `SeeedStudio_4layer_DRU_no_angle_20140221.dru`
 
-- PCB design was exported to Seeed Fusion in Gerber RS-274x and Excellon (drill) formats using the CAM Processor `Seeed_Gerber_Generater_4-layer_1-2-15-16.cam`
+- PCB design was exported from Autodesk EAGLE to Seeed Fusion in Gerber RS-274x and Excellon (drill) formats using the CAM Processor `Seeed_Gerber_Generater_4-layer_1-2-15-16.cam`
 
 - Original PCB design by Sea Slug Labs: <br>
   https://github.com/SeaSlugLabs/Wisol-WSSFM10R2-Sigfox-Breakout

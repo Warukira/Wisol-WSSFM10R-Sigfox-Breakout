@@ -1471,27 +1471,37 @@ by exp-lbrs.ulp</description>
 <wire x1="269.24" y1="25.4" x2="269.24" y2="5.08" width="0.6096" layer="97"/>
 <wire x1="269.24" y1="5.08" x2="269.24" y2="-2.54" width="0.6096" layer="97"/>
 <wire x1="269.24" y1="-2.54" x2="246.38" y2="-2.54" width="0.6096" layer="97"/>
-<text x="223.52" y="27.94" size="5.08" layer="97">SeaSlugLabs</text>
+<text x="217.932" y="28.956" size="3.81" layer="97">luppy@appkaki.com</text>
 <wire x1="246.38" y1="-2.54" x2="213.36" y2="-2.54" width="0.6096" layer="97"/>
 <wire x1="213.36" y1="-2.54" x2="180.34" y2="-2.54" width="0.6096" layer="97"/>
 <wire x1="180.34" y1="-2.54" x2="0" y2="-2.54" width="0.6096" layer="97"/>
 <wire x1="269.24" y1="25.4" x2="213.36" y2="25.4" width="0.6096" layer="97"/>
 <wire x1="213.36" y1="25.4" x2="213.36" y2="35.56" width="0.6096" layer="97"/>
 <wire x1="213.36" y1="35.56" x2="269.24" y2="35.56" width="0.6096" layer="97"/>
-<text x="220.98" y="17.78" size="3.81" layer="97">Wisol WSSFM10R2</text>
+<text x="219.456" y="17.78" size="3.81" layer="97">Wisol WSSFM10R</text>
 <text x="251.46" y="0" size="2.54" layer="97">REV A</text>
 <wire x1="213.36" y1="25.4" x2="213.36" y2="5.08" width="0.6096" layer="97"/>
 <wire x1="213.36" y1="5.08" x2="246.38" y2="5.08" width="0.6096" layer="97"/>
 <wire x1="246.38" y1="5.08" x2="269.24" y2="5.08" width="0.6096" layer="97"/>
 <wire x1="246.38" y1="-2.54" x2="246.38" y2="5.08" width="0.6096" layer="97"/>
 <wire x1="213.36" y1="5.08" x2="213.36" y2="-2.54" width="0.6096" layer="97"/>
-<text x="226.06" y="10.16" size="3.81" layer="97">Sigfox Breakout</text>
+<text x="223.774" y="10.16" size="3.81" layer="97">Sigfox Breakout</text>
 <text x="187.96" y="2.54" size="1.778" layer="97">Release Date</text>
 <wire x1="213.36" y1="5.08" x2="180.34" y2="5.08" width="0.6096" layer="97"/>
 <wire x1="180.34" y1="5.08" x2="180.34" y2="-2.54" width="0.6096" layer="97"/>
-<text x="187.96" y="0" size="1.778" layer="97">05/04/2017</text>
+<text x="187.96" y="0" size="1.778" layer="97">3 Jul 2018</text>
 <text x="223.52" y="2.54" size="1.778" layer="97">Rev Date</text>
-<text x="223.52" y="0" size="1.778" layer="97">05/04/2017</text>
+<text x="223.52" y="0" size="1.778" layer="97">3 Jul 2018</text>
+<wire x1="86.36" y1="134.62" x2="116.84" y2="134.62" width="0.1524" layer="97"/>
+<wire x1="116.84" y1="134.62" x2="116.84" y2="147.32" width="0.1524" layer="97"/>
+<wire x1="116.84" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="97"/>
+<wire x1="86.36" y1="147.32" x2="86.36" y2="134.62" width="0.1524" layer="97"/>
+<text x="87.63" y="136.652" size="1.016" layer="97">Note: This board layout was designed 
+for Wisol WSSFM10R2 and R4, which 
+have a longer footprint. Wisol WSSFM10R1
+and R3 have a shorter footprint (the
+top part is truncated). All pins and
+PCB components remain the same.</text>
 </plain>
 <instances>
 <instance part="WSSFM10R" gate="G$1" x="86.36" y="96.52"/>
@@ -1779,6 +1789,10 @@ by exp-lbrs.ulp</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

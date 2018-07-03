@@ -3,7 +3,7 @@
 <eagle version="9.1.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -199,6 +199,7 @@ BREAKOUT</text>
 <dimension x1="32.7025" y1="27.305" x2="54.2925" y2="27.305" x3="43.4975" y3="20.32" textsize="1.778" layer="51"/>
 <dimension x1="32.7025" y1="27.305" x2="32.7025" y2="52.705" x3="27.305" y3="40.005" textsize="1.778" layer="51"/>
 <text x="33.937109375" y="35.05105" size="0.6096" layer="21" font="vector" ratio="16" rot="R90">LUPPY@APPKAKI.COM</text>
+<text x="53.227296875" y="42.147434375" size="0.6096" layer="21" font="vector" ratio="16" rot="R180">REV A</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

@@ -1,13 +1,13 @@
 - Autodesk EAGLE schematics for Wisol WSSFM10R2/4 Sigfox Breakout board (RCZ2 and RCZ4) are in `Wisol-Breakout.brd` and `Wisol-Breakout.sch`
 
+- The PCB design uses 4 layers. If you're using the Free Edition of Autodesk EAGLE, you will only see the top and bottom layers.
+  Subscribe to the Standard Edition of Autodesk EAGLE to see all 4 layers.
+
 - Formatted for Seeed Fusion PCB Assembly service: <br>
   https://www.seeedstudio.com/fusion.html
 
 - All components sourced from Seeed Open Parts Library, except for Wisol module: <br>
   https://www.seeedstudio.com/opl.html
-
-- The PCB design uses 4 layers. If you're using the Free Edition of Autodesk EAGLE, you will only see the top and bottom layers.
-  Subscribe to the Standard Edition of Autodesk EAGLE to see all 4 layers.
 
 - Order for PCB manufacturing and assembly was submitted to Seeed Fusion with these files:
 

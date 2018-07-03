@@ -9,7 +9,7 @@
 - The PCB design uses 4 layers. If you're using the Free Edition of Autodesk EAGLE, you will only see the top and bottom layers.
   Subscribe to the Standard Edition of Autodesk EAGLE to see all 4 layers.
 
-- Gerber RS-274x and Excellon PCB designs submitted to Seeed Fusion are in `Wisol-Breakout_2018-07-02.zip`
+- Gerber RS-274x and Excellon PCB designs submitted to Seeed Fusion are in `Wisol-Breakout_2018-xx-xx.zip`
 
 - Bill Of Materials (BOM) submitted to Seeed Fusion is in `Wisol-Breakout-BOM.csv`
 

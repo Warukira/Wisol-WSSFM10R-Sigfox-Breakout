@@ -1,6 +1,6 @@
 ## Wisol WSSFM10R Sigfox Breakout Board
 
-- Autodesk EAGLE board and schematic for Wisol WSSFM10R2/4 Sigfox Breakout board (RCZ2 and RCZ4) are in `Wisol-Breakout.brd` and `Wisol-Breakout.sch`
+- Autodesk EAGLE board and schematic for Wisol WSSFM10R2/4 Sigfox Breakout board (Sigfox Zones RCZ2 and RCZ4) are in `Wisol-Breakout.brd` and `Wisol-Breakout.sch`
 
 - The PCB design uses 4 layers. If you're using the Free Edition of Autodesk EAGLE, you will only see the top and bottom layers.
   Subscribe to the Standard Edition of Autodesk EAGLE to see all 4 layers.
@@ -56,6 +56,9 @@ The design here was created for Wisol WSSFM10R2 and R4 (Sigfox Zones RCZ2 and RC
 
 1. Original PCB design by Sea Slug Labs: <br>
   https://github.com/SeaSlugLabs/Wisol-WSSFM10R2-Sigfox-Breakout
+  
+1. List of all Sigfox Zones and the countries covered: <br>
+  http://makers.sigfox.com/about/
 
 1. Wisol WSSFM10R H/W Design Guide R03 170320
 

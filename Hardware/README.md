@@ -44,7 +44,7 @@ Order for PCB manufacturing and assembly was submitted to Seeed Fusion with the 
 
 ## Changes for Sigfox Zones RCZ1 and RCZ3
 
-The design here was created for Wisol WSSFM10R2 and R4 (Sigfox Zones RCZ2 and RCZ4). For Wisol WSSFM10R1 and R3 (Sigfox Zones RCZ1 and RCZ3) the footprint is smaller and the module needs to be moved down by 5cm.  All other pins and components are unchanged.
+The design here was created for Wisol WSSFM10R2 and R4 (Sigfox Zones RCZ2 and RCZ4). For Wisol WSSFM10R1 and R3 (Sigfox Zones RCZ1 and RCZ3) the footprint is smaller and the module needs to be moved down by 5mm.  All other pins and components are unchanged.
 
 ![Wisol WSSFM10R Placement](https://raw.githubusercontent.com/lupyuen/Wisol-WSSFM10R-Sigfox-Breakout/master/Hardware/Wisol-Footprint.png)
 

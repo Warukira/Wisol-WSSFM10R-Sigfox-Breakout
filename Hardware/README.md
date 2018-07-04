@@ -17,7 +17,7 @@
 
 ## Seeed Fusion PCB Manufacturing and Assembly
 
-Order for PCB manufacturing and assembly was submitted to Seeed Fusion with the following:
+Order submitted to Seeed Fusion for PCB manufacturing and assembly at https://www.seeedstudio.com/fusion_pcb.html:
 
 1. `Wisol-Breakout_2018-xx-xx.zip`: PCB design in Gerber RS-274x and Excellon (drill) formats
 

@@ -37,9 +37,13 @@ Order submitted to Seeed Fusion for PCB manufacturing and assembly at https://ww
   Trace Width / Spacing - 4/4 mil <br>
   No. of Different Designs - 1 <br>
 
-1. `Wisol-Breakout-BOM.csv`: Bill Of Materials (BOM)
+1. `Wisol-Breakout-BOM.csv`: Bill Of Materials (BOM) for Sigfox Zone RCZ4. Update the WSSFM10R Manufacturer Part Number (MPN) in the BOM if you are in other zones: <br>
+  For RCZ1: WSSFM10R1AT<br>
+  For RCZ2: WSSFM10R2AT<br>
+  For RCZ3: WSSFM10R3AT<br>
+  For RCZ4: WSSFM10R4AT<br>
 
-1. Link provided to Seeed Fusion for sourcing WSSFM10R4AT: <br>																									
+1. Link provided to Seeed Fusion for sourcing WSSFM10R4AT (RCZ4): <br>																									
   https://www.avnet.com/shop/apac/products/wisol/wssfm10r4at-3074457345633583729/?aka_re=1																							
 
 ## Changes for Sigfox Zones RCZ1 and RCZ3

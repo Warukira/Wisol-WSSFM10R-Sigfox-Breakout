@@ -1508,6 +1508,24 @@ have a longer footprint. Wisol WSSFM10R1
 and R3 have a shorter footprint (the
 top part is truncated). All pins and
 PCB components remain the same.</text>
+<wire x1="129.54" y1="132.08" x2="129.54" y2="111.76" width="0.1524" layer="97" style="longdash"/>
+<wire x1="129.54" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="97" style="longdash"/>
+<wire x1="154.94" y1="111.76" x2="154.94" y2="132.08" width="0.1524" layer="97" style="longdash"/>
+<wire x1="154.94" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="97" style="longdash"/>
+<text x="155.194" y="110.998" size="1.016" layer="97" align="top-right">Recommended by Wisol
+WSSFM10R H/W Design Guide</text>
+<wire x1="124.46" y1="105.918" x2="124.46" y2="88.9" width="0.1524" layer="97" style="longdash"/>
+<wire x1="124.46" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="97" style="longdash"/>
+<wire x1="142.24" y1="88.9" x2="142.24" y2="105.918" width="0.1524" layer="97" style="longdash"/>
+<wire x1="142.24" y1="105.918" x2="124.46" y2="105.918" width="0.1524" layer="97" style="longdash"/>
+<wire x1="106.68" y1="76.2" x2="106.68" y2="59.436" width="0.1524" layer="97" style="longdash"/>
+<wire x1="106.68" y1="59.436" x2="137.16" y2="59.436" width="0.1524" layer="97" style="longdash"/>
+<wire x1="137.16" y1="59.436" x2="137.16" y2="76.2" width="0.1524" layer="97" style="longdash"/>
+<wire x1="137.16" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="97" style="longdash"/>
+<text x="142.494" y="88.138" size="1.016" layer="97" align="top-right">Recommended by Wisol
+WSSFM10R H/W Design Guide</text>
+<text x="137.16" y="58.42" size="1.016" layer="97" align="top-right">Recommended by Wisol
+WSSFM10R H/W Design Guide</text>
 </plain>
 <instances>
 <instance part="WSSFM10R" gate="G$1" x="86.36" y="96.52"/>
@@ -1515,16 +1533,16 @@ PCB components remain the same.</text>
 <instance part="R2" gate="G$1" x="96.52" y="48.26" rot="R180"/>
 <instance part="R3" gate="G$1" x="96.52" y="40.64" rot="R180"/>
 <instance part="R4" gate="G$1" x="121.92" y="71.12" smashed="yes">
-<attribute name="NAME" x="115.57" y="72.6186" size="1.778" layer="95"/>
+<attribute name="NAME" x="115.316" y="72.8726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.38" y="72.898" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="114.3" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="113.665" y="67.945" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="111.76" y="65.0875" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="112.141" y="64.389" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="116.332" y="69.4055" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C2" gate="G$1" x="137.16" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="136.525" y="95.885" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="134.62" y="93.0275" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="135.509" y="92.583" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="138.684" y="97.0915" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="J1" gate="G$1" x="160.02" y="88.9"/>
 <instance part="RD" gate="G$1" x="83.82" y="40.64" smashed="yes" rot="R180">
@@ -1573,11 +1591,11 @@ PCB components remain the same.</text>
 <wire x1="121.92" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="127" y1="121.92" x2="127" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="127" y1="129.54" x2="127" y2="137.16" width="0.1524" layer="91"/>
-<label x="127" y="147.32" size="1.778" layer="95"/>
+<label x="124.206" y="142.494" size="1.778" layer="95"/>
 <pinref part="RF" gate="G$1" pin="GND1"/>
 <pinref part="RF" gate="G$1" pin="GND2"/>
 <wire x1="127" y1="137.16" x2="127" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="127" y1="139.7" x2="127" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="127" y1="139.7" x2="127" y2="141.732" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="129.54" x2="175.26" y2="127" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="127" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="127" x2="177.8" y2="127" width="0.1524" layer="91"/>
@@ -1601,8 +1619,8 @@ PCB components remain the same.</text>
 <wire x1="121.92" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
 <label x="127" y="101.6" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="90.17" x2="127" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="127" y1="91.44" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="90.17" x2="127" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="127" y1="90.17" x2="127" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="80.01" y1="55.88" x2="74.93" y2="55.88" width="0.1524" layer="91"/>
@@ -1620,7 +1638,7 @@ PCB components remain the same.</text>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="62.23" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
-<label x="116.84" y="60.96" size="1.778" layer="95" rot="MR0"/>
+<label x="122.682" y="60.198" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <label x="182.88" y="91.44" size="1.778" layer="95"/>
@@ -1639,7 +1657,7 @@ PCB components remain the same.</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="125.73" y1="71.12" x2="130.81" y2="71.12" width="0.1524" layer="91"/>
-<label x="132.08" y="71.12" size="1.778" layer="95"/>
+<label x="131.572" y="70.358" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="182.88" y="93.98" size="1.778" layer="95"/>
@@ -1737,18 +1755,6 @@ PCB components remain the same.</text>
 <wire x1="121.92" y1="127" x2="130.81" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GPIO2" class="0">
-<segment>
-<pinref part="WSSFM10R" gate="G$1" pin="GPIO2"/>
-<wire x1="121.92" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GPIO1" class="0">
-<segment>
-<pinref part="WSSFM10R" gate="G$1" pin="GPIO1"/>
-<wire x1="121.92" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -1786,7 +1792,7 @@ PCB components remain the same.</text>
 <pinref part="RF" gate="G$1" pin="D"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="153.67" y1="127" x2="160.02" y2="127" width="0.1524" layer="91"/>
-<label x="154.94" y="129.54" size="1.778" layer="95"/>
+<label x="159.512" y="123.444" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

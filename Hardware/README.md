@@ -59,6 +59,9 @@ The design here was created for Wisol WSSFM10R2 and R4 (Sigfox Zones RCZ2 and RC
 1. Original PCB design by Sea Slug Labs: <br>
   https://github.com/SeaSlugLabs/Wisol-WSSFM10R2-Sigfox-Breakout
   
+1. Why I created the breakout board: <br>
+  https://medium.com/@ly.lee/making-my-first-ever-pcb-with-seeed-fusion-pcb-assembly-service-9af5736016b3
+  
 1. List of all Sigfox Zones and the countries covered: <br>
   http://makers.sigfox.com/about/
 

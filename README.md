@@ -14,5 +14,8 @@ Refer to the `Hardware` folder.
 
 - Original design by Sea Slug Labs: <br>
   https://github.com/SeaSlugLabs/Wisol-WSSFM10R2-Sigfox-Breakout
+  
+- Why I created the breakout board: <br>
+  https://medium.com/@ly.lee/making-my-first-ever-pcb-with-seeed-fusion-pcb-assembly-service-9af5736016b3
 
 ![Wisol WSSFM10R2/4 Sigfox Breakout board](https://raw.githubusercontent.com/lupyuen/Wisol-WSSFM10R-Sigfox-Breakout/master/Hardware/PCB.png)

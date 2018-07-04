@@ -42,6 +42,12 @@ Order for PCB manufacturing and assembly was submitted to Seeed Fusion with the 
 1. Link provided to Seeed Fusion for sourcing WSSFM10R4AT: <br>																									
   https://www.avnet.com/shop/apac/products/wisol/wssfm10r4at-3074457345633583729/?aka_re=1																							
 
+## Changes for Sigfox Zones RCZ1 and RCZ3
+
+The design here was created for Wisol WSSFM10R2 and R4 (Sigfox Zones RCZ2 and RCZ4). For Wisol WSSFM10R1 and R3 (Sigfox Zones RCZ1 and RCZ3) the footprint is smaller and the module needs to be moved down by 5cm.  All other pins and components are unchanged.
+
+![Wisol WSSFM10R Placement](https://raw.githubusercontent.com/lupyuen/Wisol-WSSFM10R-Sigfox-Breakout/master/Hardware/Wisol-Footprint.png)
+
 ## References
 
 1. Original PCB design by Sea Slug Labs: <br>

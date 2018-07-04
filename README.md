@@ -1,6 +1,6 @@
 ## Wisol WSSFM10R Sigfox Breakout Board
 
-This breakout board connects your Arduino, Raspberry Pi and other devices to the Sigfox IoT network for low-power, long-range communications. The board uses the Wisol WSSFM10Rx module to connect to the Sigfox network. The interface between the device and the breakout board is based on UART Serial I/O at 9600 bps with 4 pins (3.3V, GND, TX, RX). A U.FL antenna is required.
+This breakout board connects your Arduino, Raspberry Pi and other devices to the Sigfox IoT network for low-power, long-range communications. The board uses the Wisol WSSFM10Rx module to connect to the Sigfox network. The interface between the device and the breakout board is based on UART Serial I/O at 9600 bps with 4 pins (3.3V, GND, TX, RX). A U.FL antenna and a Sigfox network subscription are required.
 
 Refer to the `Hardware` folder.
 

@@ -4,10 +4,7 @@ This breakout board connects your Arduino, Raspberry Pi and other devices to the
 
 Refer to the `Hardware` folder for:
 
-- Autodesk EAGLE board and schematic for Wisol WSSFM10R2/4 Sigfox Breakout board (Sigfox Zones RCZ2 and RCZ4) are in `Wisol-Breakout.brd` and `Wisol-Breakout.sch`
-
-- The PCB design uses 4 layers. If you're using the Free Edition of Autodesk EAGLE, you will only see the top and bottom layers.
-  Subscribe to the Standard Edition of Autodesk EAGLE to see all 4 layers.
+- Autodesk EAGLE board and schematic for Wisol WSSFM10R2/4 Sigfox Breakout board (Sigfox Zones RCZ2 and RCZ4)
 
 - Formatted for Seeed Fusion PCB Assembly service, so that you may submit the files from this repository and order the breakout board fully assembled with the onboard components, including the Wisol Sigfox module: <br>
   https://www.seeedstudio.com/fusion.html

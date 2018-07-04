@@ -1140,6 +1140,7 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 by exp-lbrs.ulp</description>
 <packages>
 <package name="WSSFM10R">
+<description>Wisol WSSFM10R2 and R4 use taller footprint; Wisol WSSFM10R1 and R3 use shorter footprint</description>
 <wire x1="0" y1="0" x2="0" y2="20" width="0.1" layer="21"/>
 <wire x1="0" y1="0" x2="13" y2="0" width="0.1" layer="21"/>
 <wire x1="13" y1="0" x2="13" y2="20" width="0.1" layer="21"/>
@@ -1177,6 +1178,11 @@ by exp-lbrs.ulp</description>
 <smd name="31" x="12.4" y="13.55" dx="1" dy="0.7" layer="1"/>
 <text x="0.06" y="20.22" size="1.016" layer="25">&gt;Name</text>
 <text x="0" y="-1.48" size="1.016" layer="27">&gt;Value</text>
+<wire x1="12.658209375" y1="15.001" x2="0.313996875" y2="15.001" width="0.1524" layer="21"/>
+<text x="6.65914375" y="19.8792125" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">Place WSSFM10R2AT and 
+WSSFM10R4AT here</text>
+<text x="6.79008125" y="14.819309375" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">Place WSSFM10R1AT and 
+WSSFM10R3AT here</text>
 </package>
 </packages>
 <symbols>

@@ -54,6 +54,12 @@ The design here was created for Wisol WSSFM10R2 and R4 (Sigfox Zones RCZ2 and RC
 
 ![Wisol WSSFM10R Placement](https://raw.githubusercontent.com/lupyuen/Wisol-WSSFM10R-Sigfox-Breakout/master/Hardware/Wisol-Footprint.png)
 
+## InnoComm Sigfox Breakout Board
+
+I have created another breakout board for the InnoComm Sigfox module SN10-12:
+
+https://github.com/lupyuen/innocomm-sigfox-breakout
+
 ## References
 
 1. Original PCB design by Sea Slug Labs: <br>
